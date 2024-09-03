@@ -21,7 +21,7 @@
 
 <body id="top">
 
-    <header class="site-header toggle-nav animated sticky">
+    <header class="site-header toggle-nav animated ssticky">
         <div class="container">
             <div class="site-id">
                 <h1>
@@ -29,25 +29,30 @@
                     <!-- <span class="hidden-sm"> | Portfolio</span> -->
                 </h1>
             </div>
+            <div class="top-nav-logo">
+                <a href="index.html"><img src="img/mf_logo.png" alt="logo" width="250" height="250"/></a>
+            </div>
             <nav class="site-nav">
                 <div class="menu-button navicon">Menu</div>
                 <ul class="nav">
                     <li><a class="scroll" href="#work">work</a></li>
-                    <li><a class="scroll" href="#about">about</a></li>
-                    <li><a class="scroll" href="#contact">contact</a></li>
+                    <li><a href="about.html">about</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main class="site-main">
+    <main class="site-main fade-and-move-in">
         <section class="hero text-centered">
             <div class="container">
-                <h1>“Ideas come from everything”</h1>
-                <p>― Alfred Hitchcock</p>
+                <h1>Hi, I'm Michael!</h1>
+                <h5>Thanks for checking out my work.</h5>
                 <!-- <a class="button scroll" href="#about">Explore Me</a>
                 <a class="button alt scroll" href="#contact">Lets Chat!</a> -->
             </div>
+            <div class="hero-image">
+                <img src="img/ocean.png" alt="Puerto Escondido Logo" width="2000" height="2000"class="vert-move"/>
+            </div>   
         </section>
         
         <section id="work">
@@ -79,25 +84,7 @@
             </div>
         </section>
 
-        <section id="about">
-            <div class="container">
-                <h3 class="section-title"></h3>
-                <article>
-                    <h1>Michael Fiocco</h1>
-
-                    <h2 class="subhead">is a visual and graphic designer based in Honolulu, seeking to creatively collaborate with the community and craft visually striking creations tailored to each client's needs.</h2>
-                    
-                    
-                </article>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="container">
-                <h3 class="section-title"></h3>
-                
-            </div>
-        </section>
+       
 
 
     </main>
@@ -106,10 +93,11 @@
         <div class="container">
             <nav class="site-nav">
                 <ul>
-                    <li><a class="scroll" href="#top">home</a></li>
-                    <li><a class="scroll" href="#work">work</a></li>
-                    <li><a class="scroll" href="#about">about</a></li>
-                    <li><a class="scroll" href="#contact">contact</a></li>
+                    <li><a href="index.html"><img src="img/mf_logo.png" alt="logo" width="100" height="100"/></a></li>
+                    <li class="selected">
+                        <a href="index.html#work" class="selected">work</a>
+                    </li>
+                    <li><a href="about.html">about</a></li>
                 </ul>
             </nav>
         </div>
