@@ -615,6 +615,32 @@ article {
     padding-bottom: 1.7em;
 }
 
+.about-intro {
+    color: #6f6f6f;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+.ul-about {
+    margin: 0;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: .9em;
+    line-height: 2em;
+}
+
+.contact {
+    margin-top: 2em;
+    color: #416178;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em
+}
+
 .iteration-title {
     font-style: italic;
     font-weight: 500;
@@ -657,6 +683,10 @@ article {
     padding-top: 3em;
 }
 
+.detail-border {
+    /* background-color: #efefef; */
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
 
 /* VERTICAL MEDIA query add height/ paddding to bottom of contact section only for large screens */
 
