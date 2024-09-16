@@ -238,6 +238,10 @@ body { margin: 0;}
     /* padding: 0 2%; */
 }
 
+.containers {
+    padding: 0 1em; 
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
@@ -551,7 +555,7 @@ section {
 article {
     max-width: 50em;
     margin: 0 auto 2em auto;
-    /* padding: 2em 0; */
+    padding: 0 1em;
   }
   
   article h1 {
